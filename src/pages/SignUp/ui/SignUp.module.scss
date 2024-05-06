@@ -1,0 +1,43 @@
+.FormWrapper {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Form {
+  width: 400px;
+  padding: 10px 25px;
+  border: 1px solid #d0d5dd;
+  border-radius: 20px;
+
+  &__title {
+    color: #280559;
+    font-family: "Inter Bold", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    margin: 20px 0 8px 0;
+    text-align: center;
+  }
+
+  &__label {
+    display: inline-block;
+    color: #344054;
+    font-family: "Inter Medium", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 25px;
+  }
+
+  a {
+    width: 100%;
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}

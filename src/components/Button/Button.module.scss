@@ -1,0 +1,31 @@
+.BtnWrapper {
+  width: 100%;
+
+  button {
+    display: flex;
+    width: 100%;
+    padding: 12px 154px;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+
+    /* text */
+    font-family: "Inter Medium", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+
+    /* colors */
+    color: #fff;
+    border-radius: 8px;
+    background: #280559;
+  }
+
+  button:active {
+    transform: scale(0.99);
+  }
+}

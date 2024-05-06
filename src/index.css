@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+  background: none !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+.statusNewSircle {
+  width: 15px;
+  height: 15px;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+.statusNew {
+  color: black;
+}
+
+.statusReadingSircle {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 30, 0);
+  border-radius: 20px;
+}
+
+.statusReading {
+  color: rgb(255, 30, 0);
+}
+
+.statusCompletedSircle {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(1, 102, 1);
+  border-radius: 20px;
+}
+
+.statusCompleted {
+  color: rgb(1, 102, 1);
+}

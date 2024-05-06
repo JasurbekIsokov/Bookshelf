@@ -1,0 +1,13 @@
+.MainLayout {
+  min-height: 100vh;
+}
+
+.content {
+  grid-area: content;
+  justify-self: center;
+  padding: 0 20px;
+  padding-top: 30px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
