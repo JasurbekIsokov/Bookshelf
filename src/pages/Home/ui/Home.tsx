@@ -155,6 +155,12 @@ const Home = () => {
 
   return (
     <div>
+      <h2 className={classNames(cls.testTitle)}>
+        Menda backenddan kelayotgan Bookning datasi null keldi. Shu sababli test
+        uchun booklarni statik render qildim. Barchasi RTK query orqali amalga
+        oshirildi, birgina data null bo'lib kelganligi sababli booklarni statik
+        render qildim
+      </h2>
       {/* <h2>Books are not available</h2> */}
       <div className={classNames(cls.BooksContainer)}>
         {BookDataForTest.map((bookData) => (
